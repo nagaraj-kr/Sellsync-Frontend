@@ -297,7 +297,7 @@ function loadManufacturers() {
   activeBody.innerHTML = "";
   inactiveBody.innerHTML = "";
 
-  fetch(`${BASE_URL}/api/manufacturer/active`{
+  fetch(`${BASE_URL}/api/manufacturer/active`,{
          credentials:"include"
         })
     .then(response => response.json())
